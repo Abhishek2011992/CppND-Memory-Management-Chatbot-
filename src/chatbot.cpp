@@ -42,8 +42,7 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE
-////
+
 ChatBot::ChatBot(ChatBot &copyobj)
 {
     std::cout << "ChatBot: Copy constructor" << std::endl;
@@ -107,8 +106,7 @@ ChatBot& ChatBot::operator=(ChatBot &&copyobj)
 
     return *this;
 }
-////
-//// EOF STUDENT CODE
+
 
 void ChatBot::ReceiveMessageFromUser(std::string message)
 {
